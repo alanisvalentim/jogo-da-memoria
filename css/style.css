@@ -5,6 +5,7 @@
 
 body{
     background-color: rgb(233, 200, 255);
+    text-align: center;
 }
 
 .estrelas{
@@ -63,4 +64,17 @@ body{
     box-shadow: 0 0 10px white;
 }
 
-    
+.face.virada.match{
+box-shadow: 0 0 10px rgb(253, 0, 198);
+}
+
+/* não deu mto certo... */
+
+#telaGameover {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -2;
+}
